@@ -583,13 +583,18 @@
             <name>Spring Milestone Repository</name>
             <url>https://repo.spring.io/milestone</url>
         </repository>
+        <repository>
+           <id>maven-releases</id>
+           <name>maven-releases</name>
+           <url>http://44.223.67.202:8081/repository/maven-releases/</url>
+         </repository>     
     </repositories>
- <distributionManagement>
-    <repository>
-      <id>maven-releases</id>
-      <name>maven-releases</name>
-      <url>http://44.223.67.202:8081/repository/maven-releases/</url>
-    </repository>
+    <distributionManagement>
+          <repository>
+               <id>maven-releases</id>
+                <name>maven-releases</name>
+          <url>http://44.223.67.202:8081/repository/maven-releases/</url>
+         </repository>
     <snapshotRepository>
       <id>maven-snapshots</id>
       <name>maven-snapshots</name>
